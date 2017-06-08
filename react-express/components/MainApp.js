@@ -1,4 +1,8 @@
-import React from 'react';
+/** PARA EL MANEJO DE MODULOS ES POSIBLE USAR ES6 O COMMONJS */
+
+//import React from 'react';
+var React = require('react');
+
 import ReactDOM from 'react-dom';
 import UserPage from './UserPage';
 
