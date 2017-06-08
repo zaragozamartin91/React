@@ -12,4 +12,6 @@ var UserPage = React.createClass({
     }
 });
 
+// null.map(); INTENCIONAL PARA DISPARAR ERROR
+
 export default UserPage;
