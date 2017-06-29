@@ -1,3 +1,4 @@
+/* cyrillic-ext */
 @font-face {
   font-family: 'Roboto-bold';
   font-style: normal;
@@ -12,11 +13,14 @@
   src:  url('Roboto-Light.ttf');
 }
 
-body {
-  padding: 50px;
-  font: 14px "Roboto",  sans-serif;
+p {
+    font-family: Roboto;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+    font-family: Roboto;
+}
+
+div {
+    font-family: Roboto;
 }

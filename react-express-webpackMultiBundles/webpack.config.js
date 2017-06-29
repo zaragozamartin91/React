@@ -13,6 +13,8 @@ module.exports = {
         path: path.join(__dirname, 'public', 'javascripts')
     },
 
+    /* Indicamos que deseamos utilizar Babel para compilar los componentes excluyendo 
+    al directorio node_modules. */
     module: {
         loaders: [{
             test: path.join(__dirname, 'components'),
@@ -26,9 +28,9 @@ module.exports = {
     correspondera al archivo fuente de react y no al del bundle. Para mas informacion ir a 
     https://webpack.js.org/configuration/devtool/ */
     devtool: 'inline-source-map',
-    
+
     /* El siguiente plugin colocara todo el codigo en comun en un archivo common.js */
     plugins: [
-		new webpack.optimize.CommonsChunkPlugin(["common"]),
-	]
+        new webpack.optimize.CommonsChunkPlugin(["common"]),
+    ]
 };

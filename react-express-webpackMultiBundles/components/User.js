@@ -2,9 +2,12 @@ import React from 'react';
 
 var User = React.createClass({
     render: function () {
+        let title = <h2>{this.props.user.name}</h2>;
+        console.log("title:");
+        console.log(title);
         return (
             <div>
-                <p>{this.props.user.name}</p>
+                {title}
                 <ul>
                     <li>Email: {this.props.user.email}</li>
                     <li>Job: {this.props.user.job}</li>
