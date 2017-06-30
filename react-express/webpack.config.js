@@ -6,6 +6,7 @@ module.exports = {
         index: path.join(__dirname, 'components', 'Index.js'),
         users: path.join(__dirname, 'components', 'UserPage.js'),
         appBar: path.join(__dirname, 'components', 'AppBarExample.js'),
+        table: path.join(__dirname, 'components', 'TableExample.js'),
     },
 
     /* Se creara un archivo bundle por cada entrada que debera ser importado como <script></script> en las vistas */
