@@ -19,13 +19,7 @@ var UserPage = React.createClass({
     }
 });
 
-<<<<<<< HEAD
-// null.map(); INTENCIONAL PARA DISPARAR ERROR
-
-export default UserPage;
-=======
 ReactDom.render(
     <UserPage />,
     document.getElementById('root')
 );
->>>>>>> 677054c3c0a6e81c3c697ec210bf4a20821b9065
